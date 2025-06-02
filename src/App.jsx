@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState } from "react";
 
 export default function App() {
@@ -6,7 +5,7 @@ export default function App() {
 
   return (
     <div style={{ padding: 40 }}>
-      <h1>React Counter Demo</h1>
+      <h1 data-testid="main-title">React Counter Demo</h1>
       <p data-testid="count-value">Giá trị: {count}</p>
       <button onClick={() => setCount(count + 1)}>Tăng</button>
       <button onClick={() => setCount(count - 1)}>Giảm</button>
