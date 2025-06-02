@@ -1,0 +1,9 @@
+{
+    "name": "React Devcontainer",
+    "context": ".",
+    "dockerFile": "Dockerfile",
+    "appPort": [3000],
+    "postCreateCommand": "npm install",
+    "forwardPorts": [3000]
+  }
+  
