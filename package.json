@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@greatsumini/react-facebook-login": "^3.4.0",
     "@react-oauth/google": "^0.12.2",
     "@shadcn/ui": "^0.0.4",
     "@tanstack/react-query": "^5.74.7",
@@ -19,11 +20,13 @@
     "i18next": "^25.2.0",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.511.0",
+    "nats.ws": "^1.30.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^15.5.1",
     "react-notifications-component": "^4.0.1",
     "react-router-dom": "^7.6.1",
+    "socket.io-client": "^4.8.1",
     "tailwindcss": "^4.1.8",
     "yup": "^1.6.1"
   },
